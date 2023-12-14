@@ -4,19 +4,19 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInita42c69f022e5e1718f8af48781822c96
+class ComposerStaticInitd751713988987e9331980363e24189ce
 {
     public static $prefixLengthsPsr4 = array (
-        'F' => 
+        'A' => 
         array (
-            'Firebase\\JWT\\' => 13,
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Firebase\\JWT\\' => 
+        'App\\' => 
         array (
-            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
@@ -27,9 +27,9 @@ class ComposerStaticInita42c69f022e5e1718f8af48781822c96
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInita42c69f022e5e1718f8af48781822c96::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInita42c69f022e5e1718f8af48781822c96::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInita42c69f022e5e1718f8af48781822c96::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd751713988987e9331980363e24189ce::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd751713988987e9331980363e24189ce::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitd751713988987e9331980363e24189ce::$classMap;
 
         }, null, ClassLoader::class);
     }

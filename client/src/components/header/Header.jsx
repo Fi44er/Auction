@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <header className="bg-slate-700 flex justify-center">
-            <div className="container flex justify-between items-center h-24">
+            <div className="container flex justify-between items-center h-24 w-3/5">
                 <div>
                     <a href="/" className="text-3xl font-bold p-2" style={{ border: "5px solid #66FCF1" }}>Auction</a>
                 </div>
